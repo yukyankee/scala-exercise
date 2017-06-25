@@ -8,7 +8,7 @@ import com.yuk.exercise.double.DoubleHelper._
   */
 class DoubleHelperTest extends FunSuite {
 
-  /*
+
   test("two doubles should be equal") {
     assertResult(true)(0.3 ~= 0.1 + 0.2)
   }
@@ -20,7 +20,7 @@ class DoubleHelperTest extends FunSuite {
   test("two doubles should be equal when the precision is one-decimal rougher") {
     implicit val defaultPrecision = DoublePrecision(0.001)
     assertResult(true)(0.3 ~= 0.1001 + 0.2)
-  }*/
+  }
 
 
 
